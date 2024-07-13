@@ -10,23 +10,23 @@ FFUF是一个用Go语言编写的高速Web模糊测试工具。常被用来FUZZ�
 * 发新版：https://github.com/ffuf/ffuf/releases/tag/v2.1.0
 * 命令使用：https://x1lys.github.io/2024/07/12/FFUF%E7%94%A8%E6%B3%95%E6%89%8B%E5%86%8C/
 
-![image-20240713181706032](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713181706032.png)
+![image-20240713181706032](./img/1.png)
 
 ## 项目截图
 
 * 运行截图（多个目标）
 
-![image-20240713175026251](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713175026251.png)
+![image-20240713175026251](./img/2.png)
 
 * 输出结果截图
 
-![image-20240713175100119](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713175100119.png)
+![image-20240713175100119](./img/3.png)
 
 ## 项目介绍
 
 其实就是循环调用了ffuf工具，自定义了一些参数接收，字典选择的逻辑，然后拼接参数与路径批量执行ffuf命令，很简单
 
-![image-20240713173309979](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713173309979.png)
+![image-20240713173309979](./img/4.png)
 
 * dict：提供的默认目录扫描字典，不能重命名，或者需要在代码中修改路径，可自定义
 * ffuf.exe：ffuf工具
@@ -55,6 +55,6 @@ FFUF是一个用Go语言编写的高速Web模糊测试工具。常被用来FUZZ�
 4. 自动从urls.txt中读取url扫描
 5. 结果输出在multiple_target_result.txt
 
-![image-20240713181351229](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713181351229.png)
+![image-20240713181351229](./img/5.png)
 
-![image-20240713181306517](C:\Users\23822\AppData\Roaming\Typora\typora-user-images\image-20240713181306517.png)
+![image-20240713181306517](./img/6.png)
